@@ -1,0 +1,36 @@
+<!-- Portfolio Section -->
+<section class="site-section portfolio-section section-focus" id="portfolio">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.portfolio-title }}</h2>
+        <hr class="normal">
+      </header>
+
+
+    </div>
+
+
+    <!-- Portfolio Grid -->
+    <div class="row portfolio-grid">
+
+      {% for item in site.portfolio %}
+
+      <div class="col-md-12 col-sm-1 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
+        <figure class="img-wrap">
+          <img src="{{ site.baseurl }}/images/{{ item.image }}" alt="Portfolio Item Image" />
+        </figure>
+      </div>
+
+      {% endfor %}
+
+      <!-- Overlay Lightbox 
+      <div id="overlay" class="overlay"></div>-->
+    </div>
+
+  </div>
+</section>

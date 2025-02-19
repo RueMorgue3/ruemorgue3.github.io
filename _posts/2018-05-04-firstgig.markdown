@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "First Live Gig"
+tagline: Single Page
+date: 2018-05-04
+categories: [Live]
+tags: [Live]
+image: News_1.jpg
+---
+
+The Autumn Almanacs played their first ever gig in Moergestel!!!! Visit the Gallery for a few snapshots!

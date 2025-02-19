@@ -1,0 +1,33 @@
+<section class="site-section portfolio-section section-focus" id="prices">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>Preisliste GTü</h2>
+        <hr class="normal">
+      </header>
+
+
+    </div>
+
+
+    <!-- Portfolio Grid -->
+    <div class="row portfolio-grid">
+
+
+      <div class="col-md-12 col-sm-1 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
+        <figure class="img-wrap">
+          <img id="scheduling-1016815969417047" src="/images/Prices.PNG"/>
+        </figure>
+      </div>
+
+
+      <!-- Overlay Lightbox 
+      <div id="overlay" class="overlay"></div>-->
+    </div>
+
+  </div>
+</section>
