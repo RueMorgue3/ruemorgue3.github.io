@@ -84,7 +84,7 @@ banner-link: https://themeforest.net/collections/6069390-sera
 ####################################
 youtube: "https://www.youtube.com/channel/UCskLJPKM6gXXK6xtWi5fqtA"
 pinterest: "#"
-facebook: "https://de-de.facebook.com/theautumnalmanacs/"
+facebook: "https://www.facebook.com/share/1YywacV3fD/"
 twitter: "#"
 instagram: "https://www.instagram.com/gtue.pruefstelle.bochum?igsh=NzZtcnBlbzdrdG80"
 google-plus: "#"
@@ -173,7 +173,14 @@ portfolio:
     categories: []
     image: Logo_Gross3.PNG
     url: "#"
-    text: "Bandshooting 2020"
+    text: "Logo Prüfstelle"
+
+      # Portfolio Item
+  - title: <span class="thin">era</span> Style
+    categories: []
+    image: Pruefstelle.jfif
+    url: "#"
+    text: "Foto Prüfstelle"
 
 
 
