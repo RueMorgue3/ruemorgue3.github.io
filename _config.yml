@@ -182,6 +182,11 @@ portfolio:
     url: "#"
     text: "Foto Prüfstelle"
 
+  - title: S<span class="thin">era</span> Style
+    categories: []
+    image: Keff.PNG
+    url: "#"
+    text: "Öffnungszeiten"
 
 
 #####################################
